@@ -1,1 +1,3 @@
-malicious_code.txt
+tests
+env
+__pycache__
