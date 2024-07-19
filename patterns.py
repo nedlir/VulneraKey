@@ -1,4 +1,4 @@
-malicious_patterns = {
+MALICIOUS_PATTERNS = {
     r'FileInstall, .*': 'File installation from external source',
     r'Run, "?.*\.exe"?': 'Execution of executable file',
     r'RegWrite, .*': 'Registry modification',
