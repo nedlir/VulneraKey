@@ -17,6 +17,7 @@ def calculate_entropy(data):
     # compute entropy
     entropy = 0
     for p in probabilities:
-        entropy = entropy - (p * math.log2(p))
+        # using this formula for better readability, reformulation of: "-probability * math.log2(probability)"
+        entropy = entropy + (p * math.log2(1/p))
 
     return entropy
